@@ -25,6 +25,7 @@ export default {
         .post("/api/test/screenshot", ajaxData)
         .then(res => {
           console.info(res.data);
+          
         })
         .catch(err => {
           console.error(err);
